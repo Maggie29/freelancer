@@ -11,6 +11,8 @@ header{
   height: 90px;
   width: 100%;
   background-color: #2C3E50;
+  position: fixed;
+  z-index: 1;
 }
 .nav-container{
   position: absolute;
@@ -45,7 +47,7 @@ li a{
 .main{
   background: #18BC9C;
   text-align: center;
-  height: 550px;
+  height: 700px;
 }
 .main-container{
   position: absolute;
@@ -68,28 +70,33 @@ hr{
   border: none;
   text-align: center;
 }
-hr::after{
-  content: "\f005";
-  display: inline-block;
-  top: -8em;
-  font-size: 2em;
+.text div{
   color: white;
+  font-size: 2em;
 }
 span{
   font-size: 1.2em;
   font-weight: 400;
+}
+.portafolio{
+  height: 700px;
 }
 .grid-container{
   position: absolute;
   width: 80%;
   left:10%;
 }
+.row{
+  height: 300px;
+}
+
 .col{
-  width: 26.6%;
-  height: 26.6%;
+  width: 33.33333%;
+  height: 269px;
   float: left;
-  }
+
+}
   .col img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 260px;
   }
