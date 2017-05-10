@@ -3,31 +3,58 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: "lato";
+  font-size: 14px;
+}
 header{
   height: 90px;
   width: 100%;
   background-color: #2C3E50;
 }
 .nav-container{
-  height: 90px;
-  width: 70%;
+  position: absolute;
+  height: 80px;
+  width: 60%;
+  left:20%;
+}
+.nav-container{
+  position: absolute;
+  top: 25px;
+}
+.title{
+  float: left;
 }
 .title a{
 text-decoration: none;
 color: white;
-font-size: 3em;
+font-size: 2em;
+text-transform: uppercase;
+font-weight: 700;
 }
 .navbar{
 float: right;
 }
 li{
   display: inline-block;
+  padding-top: 12px;
 }
 
 li a{
   text-decoration: none;
   padding: 12px;
   color: white;
-  font-size: 2em;
-
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main{
+  background: #18BC9C;
+  text-align: center;
+}
+.main-container{
+  position: absolute;
+  width: 60%;
+  left:20%;
+  top: 200px;
 }
