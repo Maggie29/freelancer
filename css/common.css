@@ -1,3 +1,8 @@
-.uppercase{
+.title{
   text-transform: uppercase;
+  font-family: "montserrat";
+  font-weight: 700;
+}
+flex{
+  display: flex;
 }
