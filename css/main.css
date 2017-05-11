@@ -63,12 +63,20 @@ h1{
   font-weight: 900;
   text-transform: uppercase;
 }
-hr{
-  max-width: 250px;
-  height: 7px;
+.star{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  left: 37%;
+  position: absolute;
+}
+.line-star{
+  width: 150px;
+  height: 6px;
   background: white;
   border: none;
-  text-align: center;
+  top: 25px;
 }
 .text div{
   color: white;
